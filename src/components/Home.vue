@@ -1,10 +1,9 @@
-
 <template>
   <!-- Header-->
   <header class="py-5">
     <div class="container">
       <div class="row gx-5 align-items-center">
-        <div class="col-6">
+        <div class="col-lg-6 order-md-1 order-2 p-2">
           <!-- Header text content-->
           <div class="text-center text-xxl-start">
             <!-- <div class="badge bg-gradient-primary-to-secondary text-white mb-4">
@@ -75,9 +74,9 @@
             </div>
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-lg-6 order-md-2 order-1 p-2">
           <!-- Header profile picture-->
-          <div class="d-flex justify-content-center mt-5 mt-xxl-0">
+          <div class="d-flex justify-content-center mt-xxl-0">
             <div class="profile bg-gradient-primary-to-secondary">
               <!-- TIP: For best results, use a photo with a transparent background like the demo example below-->
               <!-- Watch a tutorial on how to do this on YouTube (link)-->
