@@ -3,7 +3,7 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 fixed-top">
     <div class="container px-5">
       <RouterLink class="navbar-brand" to="/">
-        <span class="fw-bolder text-primary">Islam Portfolio</span>
+        <span class="fw-bolder text-primary">Portfolio</span>
       </RouterLink>
       <button
         class="navbar-toggler"
