@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import About from "@/components/About.vue";
-import Skills from "@/components/Skills.vue";
-import Links from "@/components/Links.vue";
+import About from "@/components/AboutSection.vue";
+import Skills from "@/components/SkillsSection.vue";
+import Links from "@/components/LinksSection.vue";
 </script>
 
 <template>
