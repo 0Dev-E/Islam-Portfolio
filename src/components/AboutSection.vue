@@ -20,6 +20,8 @@
           </div>
         </div>
       </div>
+      <div class="divider mx-auto m-5"></div>
+
       <div class="text-center mb-5">
         <h1 class="display-5 fw-bolder mb-0">
           <span class="text-gradient d-inline">Resume</span>
