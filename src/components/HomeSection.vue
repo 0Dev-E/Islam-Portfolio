@@ -66,7 +66,7 @@
               class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3"
             >
               <a
-                class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder"
+                class="btn btn-primary btn-lg px-4 py-3 me-sm-3 m-3 fs-6 fw-bolder"
                 href="/cv/islam-cv.pdf"
                 download
                 >Download CV
