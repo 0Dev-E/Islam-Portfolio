@@ -11,7 +11,7 @@
         <div class="divider mx-auto"></div>
       </div>
       <div class="row gx-5 justify-content-center">
-        <div class="col-lg-11 col-xl-9 col-xxl-8">
+        <div class="col-lg-11 col-xl-9 col-xxl-12">
           <!-- Project Card 1-->
           <div
             v-for="project in projects"
@@ -112,7 +112,7 @@ const projects = ref([
     id: 5,
     title: "DevE - Web & App Development Platform",
     description:
-      "A complete multi-tenant platform where users can order websites and apps. Features include user/admin/employee roles, order management, real-time chat system, payment integration, and project tracking. Built with Laravel, Vue.js, and MySQL.",
+      "A comprehensive multi-tenant platform that connects clients with developers. Users can order custom websites and mobile apps, track progress in real-time, communicate via integrated chat, and make secure payments. The platform features three distinct roles: Users (order projects), Admins (manage everything), and Employees (execute tasks). Current development focuses on real-time chat, payment integration, and a complete project management dashboard.",
     tags: ["Laravel", "Vue.js", "MySQL", "Chat", "Payments", "Multi-Role"],
     image: "/images/devE.png",
     demoLink: "https://deve-platform.com", // Add your demo link when ready
@@ -180,16 +180,16 @@ document.addEventListener("keydown", handleKeydown);
 .image-wrapper {
   position: relative;
   overflow: hidden;
-  min-width: 300px;
-  max-width: 300px;
-  height: 300px;
+  min-width: 500px;
+  max-width: 500x;
+  height: 600px;
   cursor: pointer;
 }
 
 .image-wrapper .project-image {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: fill;
   transition: transform 0.5s ease;
 }
 
