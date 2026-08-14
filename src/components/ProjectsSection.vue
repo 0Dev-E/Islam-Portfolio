@@ -109,54 +109,87 @@ const closeModal = () => {
 
 const projects = ref([
   {
-    id: 5,
+    id: 1,
     title: "DevE - Web & App Development Platform",
     description:
       "A comprehensive multi-tenant platform that connects clients with developers. Users can order custom websites and mobile apps, track progress in real-time, communicate via integrated chat, and make secure payments. The platform features three distinct roles: Users (order projects), Admins (manage everything), and Employees (execute tasks). Current development focuses on real-time chat, payment integration, and a complete project management dashboard.",
     tags: ["Laravel", "Vue.js", "MySQL", "Chat", "Payments", "Multi-Role"],
-    image: "/images/devE.png",
+    image: "/images/projects/devE.png",
     demoLink: "https://deve-platform.com", // Add your demo link when ready
     githubLink: "https://github.com/0Dev-E/DEVE", // Add your GitHub link
   },
   {
-    id: 4,
-    title: "Project Management System",
+    id: 2,
+    title: "Web Application Developer Music Teaching Website",
     description:
-      "A comprehensive project management application for tracking tasks, deadlines, and team progress. Built with PHP, JavaScript, and SQL.",
-    tags: ["PHP", "JavaScript", "SQL", "Bootstrap"],
-    image: "/images/project2.jpg",
+      "Built an interactive music teaching platform using .NET and React with course management, student enrollment, video lessons, Google meet sessions times , and progress tracking.",
+    tags: [
+      ".NET",
+      "React",
+      "ASPX",
+      "Swagger",
+      "SmarterASP.NET",
+      "SQL",
+      "Server",
+      "Video Integration",
+      "Google meet sessions",
+      "links Team Leadership",
+    ],
+    image: "/images/projects/Qlessons.png",
     demoLink: "",
-    githubLink: "",
+    githubLink: "https://github.com/0Dev-E/q_musicteaching.git",
   },
   {
     id: 3,
-    title: "Gym Administration System",
+    title: "Qhijin - Camel Races Platform",
+    description:
+      " Developed a comprehensive platform for camel race management using .NET and  React, including race scheduling, participant registration, and results management.",
+    tags: [
+      ".NET",
+      "React",
+      "ASPX",
+      "Swagger",
+      "SmarterASP.NET",
+      "SQL",
+      "Server",
+      "Video Integration",
+      "Google meet sessions",
+      "links Team Leadership",
+    ],
+    image: "/images/projects/hijin.png",
+    demoLink: "",
+    githubLink: "https://github.com/0Dev-E/hijin_App.git",
+  },
+  {
+    id: 4,
+    title: "WrshaOnline - Furniture E-Commerce Platform",
+    description:
+      " A complete e-commerce platform connecting furniture companies and workshops. Companies can list and sell their products, while workshops can browse, purchase, and manage their orders. Features include user registration, product management, shopping cart, and secure checkout.",
+    tags: [
+      ".NET",
+      "React",
+      "ASPX",
+      "Swagger",
+      "SmarterASP.NET",
+      "SQL",
+      "Server",
+      "Video Integration",
+      "Google meet sessions",
+      "links Team Leadership",
+    ],
+    image: "/images/projects/wrshonline.png",
+    demoLink: "",
+    githubLink: "https://github.com/0Dev-E/WarshOnline.git",
+  },
+  {
+    id: 5,
+    title: "Trio Gym Administration Platform",
     description:
       "Complete management system for gym operations including member management, scheduling, and billing. Full-stack development with PHP and MySQL.",
     tags: ["PHP", "JavaScript", "MySQL", "Full-Stack"],
-    image: "/images/project2.jpg",
+    image: "/images/projects/trio.png",
     demoLink: "",
-    githubLink: "",
-  },
-  {
-    id: 2,
-    title: "Insect Management System",
-    description:
-      "Specialized system for insect tracking and management with real-time data processing and analytics.",
-    tags: ["PHP", "JavaScript", "SQL", "Data Processing"],
-    image: "/images/project3.jpg",
-    demoLink: "",
-    githubLink: "",
-  },
-  {
-    id: 1,
-    title: "Qaday Low-Code Website",
-    description:
-      "A custom low-code website built with PHP and JavaScript for rapid deployment with drag-and-drop functionality.",
-    tags: ["PHP", "JavaScript", "Low-Code", "Web Development"],
-    image: "/images/project4.jpg",
-    demoLink: "",
-    githubLink: "",
+    githubLink: "https://github.com/0Dev-E/trio.git",
   },
 ]);
 // Close modal with Escape key
@@ -182,7 +215,7 @@ document.addEventListener("keydown", handleKeydown);
   overflow: hidden;
   min-width: 500px;
   max-width: 500x;
-  height: 600px;
+  height: 500px;
   cursor: pointer;
 }
 
