@@ -115,15 +115,15 @@
                 </div>
               </div>
             </div>
-            <!-- Experience Card 3-->
+            <!-- Experience Card 2-->
             <div class="card shadow border-0 rounded-4 mb-5">
               <div class="card-body p-5">
                 <div class="row align-items-center gx-5">
                   <div class="col text-center text-lg-start mb-4 mb-lg-0">
                     <div class="bg-light p-4 rounded-4">
-                      <div class="text-primary fw-bolder mb-2">Aug 2024 - Dec 2024</div>
+                      <div class="text-primary fw-bolder mb-2">Oct 2024 - Dec 2024</div>
                       <div class="small fw-bolder">Web Application Developer</div>
-                      <div class="small text-muted">Music Teaching Website</div>
+                      <div class="small text-muted">Music Teaching Platform</div>
                       <div class="small text-muted">Remote</div>
                     </div>
                   </div>
@@ -178,7 +178,66 @@
                 <div class="row align-items-center gx-5">
                   <div class="col text-center text-lg-start mb-4 mb-lg-0">
                     <div class="bg-light p-4 rounded-4">
-                      <div class="text-primary fw-bolder mb-2">April 2024 - Jul 2024</div>
+                      <div class="text-primary fw-bolder mb-2">Jul 2024 - Sep 2024</div>
+                      <div class="small fw-bolder">Web Application Developer</div>
+                      <div class="small text-muted">
+                        WrshaOnline - Furniture E-Commerce Platform
+                      </div>
+                      <div class="small text-muted">Remote</div>
+                    </div>
+                  </div>
+                  <div class="col-lg-8">
+                    <p class="mb-3">
+                      <strong>
+                        Built a complete e-commerce platform connecting furniture companies and
+                        workshops. Companies can list and sell products, while workshops can browse,
+                        purchase, and manage orders.
+                      </strong>
+                    </p>
+                    <div class="achievement-list">
+                      <div class="achievement-item">
+                        <i class="bi bi-check-circle-fill text-success me-2"></i>
+                        User registration and authentication for companies and workshops
+                      </div>
+                      <div class="achievement-item">
+                        <i class="bi bi-check-circle-fill text-success me-2"></i>
+                        Product listing and management system for companie
+                      </div>
+                      <div class="achievement-item">
+                        <i class="bi bi-check-circle-fill text-success me-2"></i>
+                        Advanced search and filtering for products
+                      </div>
+                      <div class="achievement-item">
+                        <i class="bi bi-check-circle-fill text-success me-2"></i>
+                        Shopping cart with quantity management
+                      </div>
+                      <div class="achievement-item">
+                        <i class="bi bi-check-circle-fill text-success me-2"></i>
+                        Secure checkout and order processing
+                      </div>
+                    </div>
+                    <div class="tech-tags mt-3">
+                      <span class="badge bg-light text-dark me-1">.NET</span>
+                      <span class="badge bg-light text-dark me-1">React</span>
+                      <span class="badge bg-light text-dark me-1">ASPX</span>
+                      <span class="badge bg-light text-dark me-1">Swagger</span>
+                      <span class="badge bg-light text-dark me-1">SmarterASP.NET</span>
+                      <span class="badge bg-light text-dark me-1">SQL Server</span>
+                      <span class="badge bg-light text-dark me-1">E-Commerce</span>
+                      <span class="badge bg-light text-dark me-1">Payment Integration</span>
+                      <span class="badge bg-light text-dark me-1">Team Leadership</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Experience Card 4-->
+            <div class="card shadow border-0 rounded-4 mb-5">
+              <div class="card-body p-5">
+                <div class="row align-items-center gx-5">
+                  <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                    <div class="bg-light p-4 rounded-4">
+                      <div class="text-primary fw-bolder mb-2">April 2024 - Jun 2024</div>
                       <div class="small fw-bolder">Web Application Developer</div>
                       <div class="small text-muted">Qhijin - Camel Races Platform</div>
                       <div class="small text-muted">Remote</div>
@@ -227,7 +286,7 @@
                 </div>
               </div>
             </div>
-            <!-- Experience Card 4-->
+            <!-- Experience Card 5-->
             <div class="card shadow border-0 rounded-4 mb-5">
               <div class="card-body p-5">
                 <div class="row align-items-center gx-5">
@@ -285,7 +344,7 @@
                 </div>
               </div>
             </div>
-            <!-- Experience Card 5-->
+            <!-- Experience Card 6-->
             <div class="card shadow border-0 rounded-4 mb-5">
               <div class="card-body p-5">
                 <div class="row align-items-center gx-5">
@@ -343,7 +402,7 @@
                 </div>
               </div>
             </div>
-            <!-- Experience Card 6-->
+            <!-- Experience Card 7-->
             <div class="card shadow border-0 rounded-4 mb-5">
               <div class="card-body p-5">
                 <div class="row align-items-center gx-5">
