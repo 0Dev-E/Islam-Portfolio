@@ -1,7 +1,7 @@
 import "./assets/styles.css";
 import "./assets/main2.css";
 
-import "./assets/main.js";
+import "./assets/navbar.js";
 
 import { createApp } from "vue";
 import App from "./App.vue";
