@@ -12,7 +12,7 @@
       </div>
       <div class="row gx-5 justify-content-center">
         <div class="col-lg-11 col-xl-9 col-xxl-12">
-          <!-- Project Card 1-->
+          <!-- Projects-->
           <div
             v-for="project in projects"
             :key="project.id"
@@ -33,6 +33,13 @@
 
                   <h2 class="fw-bolder">{{ project.title }}</h2>
                   <p>{{ project.description }}</p>
+                  <span
+                    v-for="feature in project.features"
+                    :key="feature"
+                    class="badge bg-light text-dark me-1 px-3 py-2 mb-1"
+                  >
+                    {{ feature }}
+                  </span>
                   <!-- GitHub and Demo Links (Hidden if not available) -->
                   <div class="mt-4" v-if="project.demoLink || project.githubLink">
                     <a
@@ -108,6 +115,7 @@ const closeModal = () => {
 };
 
 const projects = ref([
+  //DevE Project
   {
     id: 1,
     title: "DevE - Web & App Development Platform",
@@ -115,14 +123,24 @@ const projects = ref([
       "A comprehensive multi-tenant platform that connects clients with developers. Users can order custom websites and mobile apps, track progress in real-time, communicate via integrated chat, and make secure payments. The platform features three distinct roles: Users (order projects), Admins (manage everything), and Employees (execute tasks). Current development focuses on real-time chat, payment integration, and a complete project management dashboard.",
     tags: ["Laravel", "Vue.js", "MySQL", "Chat", "Payments", "Multi-Role"],
     image: "/images/projects/devE.png",
-    demoLink: "https://deve-platform.com", // Add your demo link when ready
+    features: [
+      " Designed and implemented multi-role system (Users, Admins, Employees)",
+      " Developed chat system",
+      "Integrating secure payment processing (Stripe API)",
+      "Building project tracking dashboard with analytics",
+      "Built scalable RESTful APIs with Laravel for seamless frontend-backend communication",
+      "Advanced MySQL database design with complex relationships, indexes, and query optimization",
+      " PHP framework with MVC architecture, routing, middleware, and service providers",
+    ],
+    demoLink: "", // Add your demo link when ready
     githubLink: "https://github.com/0Dev-E/DEVE", // Add your GitHub link
   },
+  // Music Teaching
   {
     id: 2,
     title: "Web Application Developer Music Teaching Website",
     description:
-      "Built an interactive music teaching platform using .NET and React with course management, student enrollment, video lessons, Google meet sessions times , and progress tracking.",
+      "Built an interactive music teaching platform using .NET and React with course management, student enrollment, and progress tracking.",
     tags: [
       ".NET",
       "React",
@@ -132,13 +150,20 @@ const projects = ref([
       "SQL",
       "Server",
       "Video Integration",
-      "Google meet sessions",
       "links Team Leadership",
+    ],
+    features: [
+      " Developed course management system with video lessons using .NET backend",
+      "Implemented student enrollment and progress tracking with React",
+      " Built interactive music theory exercises with ASPX pages",
+      "Created RESTful APIs with Swagger documentation",
+      " Deployed on SmarterASP.NET hosting environment",
     ],
     image: "/images/projects/Qlessons.png",
     demoLink: "",
     githubLink: "https://github.com/0Dev-E/q_musicteaching.git",
   },
+  //Qhijin
   {
     id: 3,
     title: "Qhijin - Camel Races Platform",
@@ -156,10 +181,19 @@ const projects = ref([
       "Google meet sessions",
       "links Team Leadership",
     ],
+    features: [
+      " Built race scheduling and management system using .NET",
+      " Implemented participant registration and tracking system with React frontend",
+      " Handel appointments races dashboard with ASPX pages",
+      "Created RESTful APIs with Swagger documentation for seamless integration",
+      "Deployed on SmarterASP.NET hosting environment",
+      "Users Can Do sale Or Buy Easily",
+    ],
     image: "/images/projects/hijin.png",
     demoLink: "",
     githubLink: "https://github.com/0Dev-E/hijin_App.git",
   },
+  //WrshaOnline
   {
     id: 4,
     title: "WrshaOnline - Furniture E-Commerce Platform",
@@ -177,10 +211,18 @@ const projects = ref([
       "Google meet sessions",
       "links Team Leadership",
     ],
+    features: [
+      " User registration and authentication for companies and workshops",
+      "Product listing and management system for companie",
+      "Advanced search and filtering for products",
+      " Shopping cart with quantity management",
+      "Secure checkout and order processing",
+    ],
     image: "/images/projects/wrshonline.png",
     demoLink: "",
     githubLink: "https://github.com/0Dev-E/WarshOnline.git",
   },
+  // Gym Administration
   {
     id: 5,
     title: "Trio Gym Administration Platform",
@@ -188,6 +230,31 @@ const projects = ref([
       "Complete management system for gym operations including member management, scheduling, and billing. Full-stack development with PHP and MySQL.",
     tags: ["PHP", "JavaScript", "MySQL", "Full-Stack"],
     image: "/images/projects/trio.png",
+    features: [
+      " Designed and developed a complete member management system with profile tracking",
+      " Implemented class scheduling and booking system for gym sessions",
+      " Built automated billing and payment processing system",
+      "Developed attendance tracking with real-time reporting",
+      " Improved system performance by 30% through code optimization",
+    ],
+    demoLink: "",
+    githubLink: "https://github.com/0Dev-E/trio.git",
+  },
+  {
+    id: 6,
+    title: "Qualified Team - Pest Control Platform",
+    description:
+      "A professional platform for Qualified Team, a leading pest control company. The platform showcases their services including crawling insect control, rodent management, and specialized pest control solutions using advanced scientific research and Bayer products.",
+    tags: ["PHP", "JavaScript", "MySQL", "Full-Stack"],
+    image: "/images/projects/bugs.png",
+    features: [
+      "Company profile and service showcase",
+      "Crawling insect control solutions using advanced pesticides",
+      "Rodent control management with specialized baits",
+      "Bayer gel treatment services (odor-free, no appliance removal)",
+      "Professional traps for weasels and cats with training",
+      "Service booking and inquiry system",
+    ],
     demoLink: "",
     githubLink: "https://github.com/0Dev-E/trio.git",
   },
