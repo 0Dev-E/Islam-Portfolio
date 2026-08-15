@@ -11,7 +11,7 @@
         <div class="divider mx-auto"></div>
       </div>
       <div class="row gx-5 justify-content-center">
-        <div class="col-lg-11 col-xl-9 col-xxl-12">
+        <div class="col-lg-12">
           <!-- Projects-->
           <div
             v-for="project in projects"
@@ -19,7 +19,7 @@
             class="card overflow-hidden shadow rounded-4 border-0 mb-5"
           >
             <div class="card-body p-0">
-              <div class="d-flex align-items-center">
+              <div class="p-0">
                 <div class="p-5">
                   <div class="project-tags mb-3">
                     <span
@@ -33,13 +33,16 @@
 
                   <h2 class="fw-bolder">{{ project.title }}</h2>
                   <p>{{ project.description }}</p>
-                  <span
-                    v-for="feature in project.features"
-                    :key="feature"
-                    class="badge bg-light text-dark me-1 px-3 py-2 mb-1"
-                  >
-                    {{ feature }}
-                  </span>
+
+                  <div class="project-tags mb-3">
+                    <span
+                      v-for="feature in project.features"
+                      :key="feature"
+                      class="badge bg-light text-dark px-3 py-2 m-1"
+                    >
+                      {{ feature }}
+                    </span>
+                  </div>
                   <!-- GitHub and Demo Links (Hidden if not available) -->
                   <div class="mt-4" v-if="project.demoLink || project.githubLink">
                     <a
@@ -274,6 +277,8 @@ document.addEventListener("keydown", handleKeydown);
 .project-tags .badge {
   font-weight: 500;
   border: 1px solid #e9ecef;
+  text-wrap: auto;
+  text-align: start;
 }
 
 /* Image Wrapper */

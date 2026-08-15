@@ -1,5 +1,5 @@
 import "./assets/styles.css";
-import "./assets/main2.css";
+import "./assets/main.css";
 
 import "./assets/navbar.js";
 
