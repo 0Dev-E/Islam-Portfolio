@@ -201,7 +201,7 @@
                       </div>
                       <div class="achievement-item">
                         <i class="bi bi-check-circle-fill text-success me-2"></i>
-                        Product listing and management system for companie
+                        Product listing and management system for companies
                       </div>
                       <div class="achievement-item">
                         <i class="bi bi-check-circle-fill text-success me-2"></i>
@@ -352,7 +352,7 @@
                     <div class="bg-light p-4 rounded-4">
                       <div class="text-primary fw-bolder mb-2">Jul 2023 - Dec 2023</div>
                       <div class="small fw-bolder">Web Application Developer</div>
-                      <div class="small text-muted">DEGUD COMPANY - Gym Administration System</div>
+                      <div class="small text-muted">DEBUD COMPANY - Gym Administration System</div>
                       <div class="small text-muted">Cairo, Egypt</div>
                     </div>
                   </div>
@@ -411,7 +411,7 @@
                       <div class="text-primary fw-bolder mb-2">Jan 2023 - Jun 2023</div>
                       <div class="small fw-bolder">Web Application Developer</div>
                       <div class="small text-muted">
-                        DEGUD COMPANY - Insects Website & Administration System
+                        DEBUD COMPANY - Insects Website & Administration System
                       </div>
                       <div class="small text-muted">Cairo, Egypt</div>
                     </div>
