@@ -28,6 +28,25 @@ body {
   transform: translateY(-5px);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1) !important;
 }
-.profile .profile-img {
-  height: 45vw !important;
+
+@media (min-width: 440px) {
+  .profile .profile-img {
+    height: 95vw;
+  }
+}
+@media (min-width: 576px) {
+  .profile .profile-img {
+    height: 77vw;
+  }
+}
+@media (min-width: 768px) {
+  .profile .profile-img {
+    height: 52vw;
+  }
+}
+
+@media (min-width: 1200px) {
+  .profile .profile-img {
+    height: 45vw;
+  }
 }
