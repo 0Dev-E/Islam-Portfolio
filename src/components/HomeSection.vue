@@ -80,7 +80,12 @@
             <div class="profile bg-gradient-primary-to-secondary">
               <!-- TIP: For best results, use a photo with a transparent background like the demo example below-->
               <!-- Watch a tutorial on how to do this on YouTube (link)-->
-              <img class="profile-img" src="/images/image.svg" alt="..." />
+              <img
+                class="profile-img"
+                src="/images/islam.svg
+              "
+                alt="..."
+              />
               <div class="dots-1">
                 <!-- SVG Dots-->
                 <svg
