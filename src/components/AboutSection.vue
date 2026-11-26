@@ -17,8 +17,7 @@
                   backend development, database management, application troubleshooting and
                   developing business-focused web solutions. Experienced in working across frontend
                   and backend environments and contributing to project management and team
-                  coordination. Currently seeking a PHP/Laravel or Full-Stack Developer position in
-                  Germany.
+                  coordination. Currently seeking a PHP/Laravel or Full-Stack Developer.
                 </p>
               </div>
             </div>
